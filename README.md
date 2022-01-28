@@ -1,2 +1,2 @@
 # FirebaseTestNotification
-Change the firebase configs dynamic
+Change firebase config dynamically
