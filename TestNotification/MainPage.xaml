@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestNotification.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+<CollectionView><CollectionView.ItemsLayout><GridItemsLayout Span="2" Orientation="Vertical" /></CollectionView.ItemsLayout><CollectionView.ItemTemplate><DataTemplate></DataTemplate></CollectionView.ItemTemplate></CollectionView>         
+        <Button BackgroundColor="Aqua" Text="Use config 1" Clicked="Button_Clicked" Margin="0,40,0,40"/>
+        <Button BackgroundColor="Aqua" Text ="Use config 2" Clicked="Button_Clicked_1" Margin="0,0,0,40"/>
+        <Button BackgroundColor="Aqua" Text ="Use config 3" Clicked="Button_Clicked_3"/>    </StackLayout>
+</ContentPage>
